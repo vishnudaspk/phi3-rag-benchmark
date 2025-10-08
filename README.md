@@ -69,16 +69,12 @@ Phi-3-mini-4k-instruct/
 Below are the benchmark visualizations generated from `results/analysis/phi3_baseline_summary.csv` and `phi3_baseline_combined.csv`.
 
 ### 🔹 Performance Metrics Visualization
-
 ![Performance Graph](results/graph.png)
 
-### 🔹 Inference Time & GPU Utilization Trends
+### 🔹 Quantization Performance Comparison
+![Quantization Performance](results/performance_quantization.png)
 
-![Figure 1](results/Figure_1.png)
-
-
-### 🔹 Quantization vs Inference Comparison
-
+### 🔹 Phi-3 Inference Comparison
 ![Phi3 Inference Graph](results/phy3_inference_graph.png)
 
 ---
