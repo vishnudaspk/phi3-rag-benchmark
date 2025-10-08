@@ -1,0 +1,71 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# -------------------------
+# Virtual environments
+# -------------------------
+env/
+venv/
+.venv/
+*.env
+*.venv
+/.conda/
+.conda/
+
+# -------------------------
+# Jupyter Notebook checkpoints
+# -------------------------
+.ipynb_checkpoints
+
+# -------------------------
+# Logs and temp files
+# -------------------------
+*.log
+*.tmp
+*.bak
+
+# -------------------------
+# OS files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# IDE configs
+# -------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# -------------------------
+# Ignore everything in analysis except baseline CSVs
+# -------------------------
+results/analysis/*
+!results/analysis/phi3_baseline_summary.csv
+!results/analysis/phi3_baseline_combined.csv
+
+# -------------------------
+# Keep all other results (like figures)
+# -------------------------
+results/**
+
+# -------------------------
+# Python packaging / build
+# -------------------------
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# -------------------------
+# Misc
+# -------------------------
+*.swp
+*.swo
